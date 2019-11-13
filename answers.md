@@ -1,0 +1,1 @@
+1. It identifies the keyword even if it is included within another word. This is an issue because it almost certainly causes the response to be on a different topic than the user's statement was.
