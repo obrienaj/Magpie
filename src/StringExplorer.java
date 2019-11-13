@@ -13,6 +13,12 @@ public class StringExplorer {
 		int position = sample.indexOf("quick");
 		System.out.println("sample.indexOf(\"quick\") = " + position);
 
+		int notFoundPsn = sample.indexOf("slow");
+		System.out.println("sample.indexOf(\"slow\") - " + notFoundPsn);
+
+		int notFoundPsn2 = sample.indexOf("quick", 12);
+		System.out.println("sample.indexOf(\"quick\", 12) - " + notFoundPsn2);
+
 		// Demonstrate the toLowerCase method.
 		String lowerCase = sample.toLowerCase();
 		System.out.println("sample.toLowerCase() = " + lowerCase);
